@@ -1,0 +1,218 @@
+.bakrund  {
+
+background-color: black;
+
+}
+
+
+.nav  {list-style-type: none;
+    margin: 10px;
+    padding: 30px;
+    overflow:hidden;
+    background-color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    font-family: "Lucida Console", "Courier New", monospace;
+border-radius: 20px;
+}
+
+.ett a  {
+  display: block;
+  color: rgb(216, 37, 37);
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.ett {
+
+float:left;
+
+}
+
+.logga  {
+
+height: 20%;
+width: 20%;
+float: left;
+
+}
+
+li a:hover {
+  background-color: rgb(143, 141, 134);
+  transition: 0.5s;
+  
+}
+
+.h_line {
+  border-bottom: 8px solid rgb(0, 0, 0);
+    width: 1400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.bluepring  {
+height: 400px;
+width: 530px;
+float: right;
+bottom: 1px;
+
+}
+
+.bluepring:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  background-color: aliceblue;
+  transition: 3s;
+}
+
+.Citroen {
+
+  height: 380px;
+  width:700px;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+
+}
+
+.text   {
+
+height: 100px;
+width: 1000px;
+float: left;
+
+
+}
+
+.textruta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.container  {
+
+  position: relative;
+  display: inline-block;
+  
+}
+
+.container:hover .textruta {
+  opacity: 1;
+}
+
+.textruta p {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.färg{
+
+  background-color: gray;
+
+}
+
+.ferrari img {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 300px;
+  left:10px ;
+  padding: 30px;
+  border: 10px solid #333; /* bredden och färgen på ramen */
+  border-radius: 20px; /* rundade hörn på ramen */
+  
+
+}
+
+
+
+.transition {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.ferrari:hover .transition {
+  opacity: 1;
+}
+
+.tesla img {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 300px;
+  padding: 30px;
+  left: 445px;
+  border: 10px solid #333; /* bredden och färgen på ramen */
+  border-radius: 20px; /* rundade hörn på ramen */
+ 
+
+
+
+}
+
+
+.transition {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.tesla:hover .transition {
+  opacity: 1;
+}
+
+.Lambo img {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 300px;
+  padding: 30px;
+  left: 890px;
+  border: 10px solid #333; /* bredden och färgen på ramen */
+  border-radius: 20px; /* rundade hörn på ramen */
+
+
+
+}
+
+
+.transition {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.Lambo:hover .transition {
+  opacity: 1;
+}
+
+.leif {
+float: left;
+height: 60%;
+width: 60%;
+
+}
+
+.leiftext{
+color: rgb(255, 255, 255);
+overflow: hidden;
+font-size: 30px;
+
+}
